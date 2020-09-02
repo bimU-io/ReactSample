@@ -39,7 +39,7 @@ function App() {
 
     // Load a model
     viewer.loadModel(modelConfigs, onPorgress, onLoaded, onError);
-  });
+  }, []);
 
   return (
     <div className="App">
